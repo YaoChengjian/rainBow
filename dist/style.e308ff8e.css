@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.rainBow {
+  width: 500px;
+  margin: 50px auto;
+  height: 200px;
+  overflow: hidden;
+}
+.rainBow > div {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  border: 1px solid red;
+}
+.rainBow > div > div {
+  width: 380px;
+  height: 380px;
+  background-color: orange;
+  margin: 8px;
+  border: 1px solid orange;
+}
+.rainBow > div > div > div {
+  width: 360px;
+  height: 360px;
+  background-color: yellow;
+  margin: 8px;
+  border: 1px solid yellow;
+}
+.rainBow > div > div > div > div {
+  width: 340px;
+  height: 340px;
+  background-color: green;
+  border: 1px solid green;
+  margin: 8px;
+}
+.rainBow > div > div > div > div > div {
+  width: 320px;
+  height: 320px;
+  background-color: Cyan;
+  border: 1px solid cyan;
+  margin: 8px;
+}
+.rainBow > div > div > div > div > div > div {
+  width: 300px;
+  height: 300px;
+  background-color: blue;
+  border: 1px solid blue;
+  margin: 8px;
+}
+.rainBow > div > div > div > div > div > div > div {
+  width: 280px;
+  height: 280px;
+  background-color: white;
+  border: 10px solid purple;
+  margin: 8px;
+}
+:not(.rainBow) {
+  border-radius: 50%;
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
